@@ -1,7 +1,7 @@
 # create three characters with attack and defense attributes
-character1 = ('Warrior', [15, 10])
-character2 = ('Mage', [20, 5])
-character3 = ('Rogue', [12, 8])
+character1 = input("Digite o nome do personagem 1: "), (int(input("Digite o valor de ataque do personagem 1: ")), int(input("Digite o valor de defesa do personagem 1: ")))
+character2 = input("Digite o nome do personagem 2: "), (int(input("Digite o valor de ataque do personagem 2: ")), int(input("Digite o valor de defesa do personagem 2: ")))
+character3 = input("Digite o nome do personagem 3: "), (int(input("Digite o valor de ataque do personagem 3: ")), int(input("Digite o valor de defesa do personagem 3: ")))
 
 # print characters names and attack and defense values
 print(character1[0])
