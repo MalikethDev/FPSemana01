@@ -15,9 +15,7 @@ print(str(character3[1][0]))
 print(str(character3[1][1]))
 
 # print full character tuples
-print(character1)
-print(character2)
-print(character3)
+print(character1 + character2 + character3)
 
 # print which character has the highest attack value
 characters = [character1, character2, character3]
