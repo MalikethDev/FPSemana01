@@ -4,9 +4,20 @@ character2 = ('Mage', [20, 5])
 character3 = ('Rogue', [12, 8])
 
 # print characters names and attack and defense values
-print(character1[0] + " " + str(character1[1][0]) + " " + str(character1[1][1]))
-print(character2[0] + " " + str(character2[1][0]) + " " + str(character2[1][1]))
-print(character3[0] + " " + str(character3[1][0]) + " " + str(character3[1][1]))
+print(character1[0])
+print(str(character1[1][0]))
+print(str(character1[1][1]))
+print(character2[0])
+print(str(character2[1][0]))
+print(str(character2[1][1]))
+print(character3[0])
+print(str(character3[1][0]))
+print(str(character3[1][1]))
+
+# print full character tuples
+print(character1)
+print(character2)
+print(character3)
 
 # print which character has the highest attack value
 characters = [character1, character2, character3]
