@@ -15,10 +15,14 @@ print(str(character3[1][0]))
 print(str(character3[1][1]))
 
 # print full character tuples
-print(character1 + character2 + character3)
+characters = [
+    [character1[0], character1[1]],
+    [character2[0], character2[1]],
+    [character3[0], character3[1]]
+]
 
+print(characters)
 # print which character has the highest attack value
-characters = [character1, character2, character3]
 for atk in characters:
     if atk [1][0] == max(character1[1][0], character2[1][0], character3[1][0]):
         highest_attack = atk
